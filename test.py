@@ -1,6 +1,6 @@
 import requests
 
-r = requests.post('https://plentina-interview.herokuapp.com/is-fraud', json = {
+r = requests.post('https://courage_fraud_detection.herokuapp.com/is-fraud', json = {
 "step":1,
 "type":"PAYMENT",
 "amount":9839.64,
